@@ -12,7 +12,7 @@ public class Main {
          
         System.out.println(name);
         //yang diatas untuk manampilkan hasil setelah di run/ di output
-        //dan komen yang memiliki 2 garis miring atau 2 slice untuk komen 1 line/baris
+        //dan komen yang memiliki 2 garis miring atau 2 slash untuk komen 1 line/baris
     }
     
 }
