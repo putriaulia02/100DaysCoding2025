@@ -1,10 +1,11 @@
 package day12.java;
-
+import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
         /* hari ini saya membuat biodata saya dengan menggunakan scanner dan
          beberapa tipe data yaitu string, int, double, float, dan char*/
+        Scanner sc = new Scanner(System.in);
         String nama, alamat, nim, asalSekolah;
         int umur;
         double tinggi;
