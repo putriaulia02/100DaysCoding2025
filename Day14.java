@@ -4,36 +4,36 @@ public class Main {
     
     public static void main(String[] args) {
         //mengubah string menjadi tipe data primitif
-        String a1 = "10";
-        short a2 = Short.parseShort(a1);
-        System.out.println("a1 :" + a1);
+        String a = "10";
+        short angka = Short.parseShort(a);
+        System.out.println("angka :" + angka);
         
-        String b1 = "11";
-        byte b2 = Byte.parseByte(b1);
-        System.out.println("b1 :" + b1);
+        String u = "11";
+        byte umur = Byte.parseByte(u);
+        System.out.println("umur :" + umur);
         
-        String c1 = "13";
-        int c2 = Integer.parseInt(c1);
-        System.out.println("c1 :" + c1);
+        String s = "13";
+        int saudara = Integer.parseInt(s);
+        System.out.println("saudara :" + saudara);
         
-        String d1 = "14";
-        long d2 = Long.parseLong(d1);
-        System.out.println("d1 :" + d1);
+        String k = "14";
+        long kursi = Long.parseLong(k);
+        System.out.println("kursi :" + kursi);
         
-        String e1 = "15";
-        float e2 = Float.parseFloat(e1);
-        System.out.println("e1 :" + e1);
+        String b = "15";
+        float berat = Float.parseFloat(b);
+        System.out.println("berat :" + berat);
         
-        String f1 = "16";
-        double f2 = Double.parseDouble(f1);
-        System.out.println("f1 :" + f1);
+        String t = "16";
+        double tinggi = Double.parseDouble(t);
+        System.out.println("tinggi :" + tinggi);
         
-        String kelas = "c";
-        char kls = kelas.charAt(0);
+        String a = "c";
+        char kelas = a.charAt(0);
         System.out.println("kelas :" + kelas);
         
-        String lulus = "true";
-        boolean lulus1 = Boolean.parseBoolean(lulus);
+        String l = "true";
+        boolean lulus = Boolean.parseBoolean(l);
         System.out.println("lulus :" + lulus);
         
         /* mengubah string menjadi tipe data primitif agar kita tidak
