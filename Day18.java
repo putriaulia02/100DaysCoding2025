@@ -7,12 +7,12 @@ public class Main {
         //byte ke int
         byte a = 18;
         long b = a;
-        System.out.println("byta ke long : " + b);
+        System.out.println("byte ke long : " + b);
         
-        //float ke double
+        //int ke double
         int c = 44;
         double d = c;
-        System.out.println("float ke double : " + d);   
+        System.out.println("int ke double : " + d);   
     }
     
 }
