@@ -10,6 +10,6 @@ public class Main {
         System.out.println("perkalian : " + (a *= b));
         System.out.println("pembagian : " + (a /= b));
         System.out.println("sisa bagi : " + (a %= b));
-        System.out.println("a + b: " + (a = b));
+        System.out.println("menugaskan nilai: " + (a = b));
     }
 }
