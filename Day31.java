@@ -4,7 +4,7 @@ public class Main {
     
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        //Operator perbandingan AND(&&)
+        //Operator logika AND(&&)
         System.out.print("Tinggi: ");
         double tinggi = input.nextDouble();
         System.out.print("Nilai rata rata: ");
