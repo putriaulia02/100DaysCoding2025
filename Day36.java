@@ -35,7 +35,7 @@ public class Main {
             int pilih = sc.nextInt();
             if(pilih == 1){
                 System.out.println("=====keterangan=====");
-                String menu = "Mie level 1";
+                String menu = "Mie ayam level 1";
                 int harga = 15000;
                 String deskripsi = "Mie ayamnya lezat dan ayamnya banyak";
                 System.out.println("Menu: " + menu);
@@ -43,7 +43,7 @@ public class Main {
                 System.out.println("Deskripsi: " + deskripsi);
             }else if(pilih == 2){
                 System.out.println("=====keterangan=====");
-                String menu = "Mie level 2";
+                String menu = "Mie ayam level 2";
                 int harga = 16000;
                 String deskripsi = "Mie ayamnya lezat, ayamnya banyak dan super pedass";
                 System.out.println("Menu: " + menu);
