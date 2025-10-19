@@ -13,75 +13,39 @@ public class Main {
         int pilih= sc.nextInt();
         System.out.print("Penghasilan: ");
         double penghasilan = sc.nextInt();
-        System.out.println("==================");
+
+        String pekerjaan = "";
         int pajak = 0;
         if(pilih == 1){
-            String jenispekerjaan = "PNS";
+            pekerjaan = "PNS";
             if(penghasilan >= 5000000){
                 pajak = 15;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }else if(penghasilan >= 3000000 && penghasilan < 5000000){
                 pajak = 10;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }else if(penghasilan < 3000000){
                 pajak = 0;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }
         }else if(pilih == 2){
-            String jenispekerjaan = "Freelancer";
+            pekerjaan = "Freelancer";
             if(penghasilan >= 5000000){
                 pajak = 8;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }else if(penghasilan >= 3000000 && penghasilan < 5000000){
                 pajak = 3;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }else if(penghasilan < 3000000){
                 pajak = 0;
-                double potongan = penghasilan * pajak/100;
-                double penghasilanbersih = penghasilan - potongan;
-                System.out.println("Nama pegawai\t\t: " + nama);
-                System.out.println("Jenis pekerjaan\t\t: " + jenispekerjaan);
-                System.out.println("Penghasilan kotor\t: " + penghasilan);
-                System.out.println("Pajak dikenakan\t\t: " + pajak + "%");
-                System.out.println("Potongan\t\t: " + potongan);
-                System.out.println("Penghasilan bersih\t: " + penghasilanbersih);
             }
         }
+        
+        double potongan = penghasilan * pajak/100;
+        double gajibersih = penghasilan - potongan;
+        System.out.println("=====================");
+        System.out.println("Nama pegawai: " + nama);
+        System.out.println("Jenis pekerjaan: " + pekerjaan);
+        System.out.println("Penghasilan kotor: " + penghasilan);
+        System.out.println("Pajak dikenakan: " + pajak + "%");
+        System.out.println("Potongan: " + potongan);
+        System.out.println("Penghasilan bersih: " + gajibersih);
     }
     
 }
+     
