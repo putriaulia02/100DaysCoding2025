@@ -12,11 +12,11 @@ public class Main {
         String hasilbagi = "";
         
         //menentukan bilangannya termasuk bilangan apa
-        if(angka < 9){
+        if(angka <= 9){
             bilangan = " satuan";
-        }else if(angka < 99){
+        }else if(angka <= 99){
             bilangan = " puluhan";
-        }else if(angka < 999){
+        }else if(angka <= 999){
             bilangan = " ratusa";
         }else{
             hasilbagi = " angka tidak habis dibagi 3 dan 5";
