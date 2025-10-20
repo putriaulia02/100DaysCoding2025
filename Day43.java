@@ -18,6 +18,8 @@ public class Main {
             bilangan = " puluhan";
         }else if(angka < 999){
             bilangan = " ratusa";
+        }else{
+            hasilbagi = " angka tidak habis dibagi 3 dan 5";
         }
         
         //menentukan ganjil genap
