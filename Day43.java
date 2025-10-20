@@ -43,7 +43,7 @@ public class Main {
             //mencetak keseluruhan
             System.out.println(angka + bilangan + ganjilOrgenap + hasilbagi);
         }else{
-             System.out.println("tidak menerima inputan negatif");
+             System.out.println("tidak boleh memasukkan angka negatif atau nol");
         }    
     }
     
