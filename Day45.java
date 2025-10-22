@@ -21,7 +21,6 @@ public class Main {
             break;
             default:
             System.out.println("Pilihan kelas tidak ada");
-            break;
         }
     }
     
