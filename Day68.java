@@ -9,8 +9,8 @@ public class Main {
         System.out.print("Masukkan lebar : ");
         int lebar = p.nextInt();
         
-        for (int i = 0; i < panjang; i++){
-            for (int j = 0; j < lebar; j++){
+        for (int i = 1; i <= panjang; i++){
+            for (int j = 1; j <= lebar; j++){
                 System.out.print(" * ");
             }
             System.out.println();
